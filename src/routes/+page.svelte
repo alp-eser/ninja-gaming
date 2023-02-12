@@ -1,13 +1,7 @@
 <script>
-  let title = "Ninja Gaming Guides";
-
-  const updateTitle = () => {
-    title = "Something completely different";
-  };
 </script>
 
 <div class="index">
-  <h2>{title}</h2>
   <p>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in commodi
     dignissimos quaerat facilis? Velit sed neque ipsa voluptatibus saepe
