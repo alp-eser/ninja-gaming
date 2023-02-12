@@ -1,25 +1,15 @@
-<script>
-  let title = "Ninja Gaming Guides";
-
-  const updateTitle = () => {
-    title = "Something completely different";
-  };
-</script>
-
-<div class="index">
-  <h2>{title}</h2>
+<div class="about">
+  <h2>About Us</h2>
   <p>
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam in commodi
     dignissimos quaerat facilis? Velit sed neque ipsa voluptatibus saepe
     asperiores dolores, doloribus at similique. Commodi adipisci ducimus ratione
     earum!
   </p>
-  <a href="/guides">View Guides</a>
-  <a href="/about">About</a>
 </div>
 
 <style>
-  .index {
+  .about {
     text-align: center;
     display: block;
     margin: 20px auto;
