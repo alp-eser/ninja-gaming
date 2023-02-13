@@ -1,7 +1,14 @@
+<script>
+  export let data;
+</script>
+
 <div class="guides">
   <ul>
-    <li><a href="/">guide1</a></li>
-    <li><a href="/">guide2</a></li>
+    {#each data.guides as guide}
+      <li>
+        <a href="/">{guide.title}</a>
+      </li>
+    {/each}
   </ul>
 </div>
 
