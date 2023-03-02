@@ -5,9 +5,7 @@ export async function load({ fetch }) {
     return {
       guides: guides,
     };
+  } else {
+    throw error(404, "not found abi");
   }
-  return {
-    status: res.status,
-    error: new Error("Could not fetch the guides"),
-  };
 }
